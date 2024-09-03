@@ -1,0 +1,50 @@
+.BreadCrum
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+    margin-left: 180px;
+}
+@media(max-width:1280px)
+{
+    .BreadCrum{
+        margin: 30px 50px;
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px) {
+    .BreadCrum {
+        margin: 30px 30px;
+        font-size: 13px;
+    }
+}
+@media(max-width:800px) {
+    .BreadCrum {
+        margin: 30px 10px;
+        font-size: 12px;
+    }
+}
+@media(max-width:550px) {
+    .BreadCrum {
+       
+        font-size: 9px;
+    }
+         .BreadCrum {
+          width: 80%;
+             font-size: 9px;
+         }
+        
+
+}
+ @media(max-width:300px) {
+    
+#prodname {
+        display: none;
+    }
+
+ }
